@@ -14,4 +14,4 @@ OKHttp，Gson，Glide，Eventbus
 
 ## 效果：
 
-![](.\1.gif)
+![](1.gif)
