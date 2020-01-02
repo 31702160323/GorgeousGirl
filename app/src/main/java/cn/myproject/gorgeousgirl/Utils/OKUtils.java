@@ -20,7 +20,11 @@ public class OKUtils extends OkHttpClient{
 
     public static OKUtils getInstance(ITestView iTestView){
         if (mOkUtils == null){
-            mOkUtils = new OKUtils();
+            synchronized (OKUtils.class){
+                if (mOkUtils == null) {
+                    mOkUtils = new OKUtils();
+                }
+            }
         }
         mITestView = iTestView;
         return mOkUtils;

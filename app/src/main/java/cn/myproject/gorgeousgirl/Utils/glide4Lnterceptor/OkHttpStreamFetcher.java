@@ -1,8 +1,9 @@
 package cn.myproject.gorgeousgirl.Utils.glide4Lnterceptor;
 
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
 
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.DataSource;

@@ -1,6 +1,6 @@
 package cn.myproject.gorgeousgirl.eventBus;
 
-import cn.myproject.gorgeousgirl.recyclerview.MyViewHolder;
+import cn.myproject.gorgeousgirl.view.recyclerview.MyViewHolder;
 
 public class ItemImgEventBus {
     private MyViewHolder holder;

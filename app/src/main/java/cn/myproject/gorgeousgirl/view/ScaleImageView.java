@@ -4,12 +4,14 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 
+import androidx.appcompat.widget.AppCompatImageView;
+
 /**
  * 按比例缩放的ImageView
  * 用于图片按比例缩放（宽度填满，高度自适应）
  * 注：如果不指定宽度，则默认填满屏幕。
  */
-public class ScaleImageView extends android.support.v7.widget.AppCompatImageView {
+public class ScaleImageView extends AppCompatImageView {
 
     private float scale;
     private static final String TAG = "ScaleImageView";

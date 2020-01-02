@@ -1,15 +1,10 @@
-package cn.myproject.gorgeousgirl.recyclerview;
+package cn.myproject.gorgeousgirl.view.recyclerview;
 
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.util.Log;
-
-import com.bumptech.glide.Glide;
-
-import cn.myproject.gorgeousgirl.data.DataBox;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 /**
  * 实现上拉加载的监听：加载条件：滑动到最后，且是停止状态，则开始加载数据
