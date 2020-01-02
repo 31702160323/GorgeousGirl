@@ -14,4 +14,4 @@ OKHttp，Gson，Glide，Eventbus
 
 ## 效果：
 
-![]( https://raw.githubusercontent.com/31702160323/GorgeousGirl/master/1.gif )
+![](.\1.gif)
